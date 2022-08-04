@@ -1,0 +1,34 @@
+---
+title: "Day 4 Exploring Data"
+author: "Carlo Broderick"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+library(GGally)
+library(skimr)
+```
+
+# Exploratory Data Visualization
+
+Check out your data a bit
+
+```{r}
+#| include: false
+
+# Tell me the column names
+
+names(penguins)
+
+# Dimensions
+dim(penguins)
+
+# Fist Six Lines
+head(penguins)
+
+# Last six lines
+tail(penguins)
+```
